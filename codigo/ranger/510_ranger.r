@@ -13,7 +13,7 @@ require("ranger")
 require("randomForest")  #solo se usa para imputar nulos
 
 #Aqui se debe poner la carpeta de la computadora local
-setwd("~/buckets/b1/crudo/")  #Establezco el Working Directory
+setwd("~/buckets/b1/")  #Establezco el Working Directory
 
 #cargo los datos donde entreno
 dtrain  <- fread("./datasetsOri/paquete_premium_202011.csv", stringsAsFactors= TRUE)
